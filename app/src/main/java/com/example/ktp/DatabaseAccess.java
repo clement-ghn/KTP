@@ -35,8 +35,8 @@ public class DatabaseAccess {
 
     //Requête vers la BDD
 
-    public String getpartie(String partie){
-        c=db.rawQuery("select id from exercices where partie = ?",new String[]{partie});
+    public String getnom(String exercices){
+        c=db.rawQuery("select nom from exercices where partie = ?",new String[]{exercices});
 
         c.moveToFirst();
         return  c.getString(0);
