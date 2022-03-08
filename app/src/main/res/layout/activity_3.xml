@@ -10,29 +10,11 @@
         android:id="@+id/rootRL"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/arriere_plan"
+        android:background="@drawable/arriere_plan_beige"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="183dp"
         tools:layout_editor_absoluteY="-16dp" />
-    <!-- On crée le premier bouton-->
-    <Button
-        android:id="@+id/button"
-        android:textColor="@android:color/black"
-        android:backgroundTint="@android:color/holo_orange_dark"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
-        android:text="Commencer" />
-    <!-- On réalise les textView nécessaires à avoir une interface agréable-->
-    <TextView
-        android:id="@+id/bienvenue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bienvenue !"
-        android:layout_marginTop="500dp"
-        android:layout_centerHorizontal="true"
-        android:textSize="30dp" />
+
 
     <TextView
         android:id="@+id/KTP"
@@ -44,15 +26,12 @@
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/clementgehin"
+        android:id="@+id/databasetest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:text="par Clément Gehin"
-        android:textAlignment="center"
-        android:textSize="10dp" />
-
+        android:layout_marginTop="150dp"
+        android:text=" test "
+        android:textSize="20dp" />
 
 </RelativeLayout>
-

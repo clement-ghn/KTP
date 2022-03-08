@@ -7,6 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/rootRL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/arriere_plan_beige"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <TextView
         android:id="@+id/KTP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,6 +23,96 @@
         android:layout_marginTop="10dp"
         android:text="Keep the peach "
         android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/clementgehin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="par Clément Gehin"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+
+    <Button
+        android:id="@+id/boutonEpaules"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Epaules"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonPectoraux"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Pectoraux"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonBras"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Bras"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonAbdos"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Abdominaux"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonDos"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Dorsaux"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonFesses"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Fessiers"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/boutonJambes"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Jambes"
+        android:textColor="@android:color/black" />
+
+
+
 
 
 
